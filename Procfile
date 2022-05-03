@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT instaBot.wsgi:application
+web: gunicorn instaBot.wsgi
