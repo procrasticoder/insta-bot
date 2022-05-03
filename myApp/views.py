@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 
 # Create your views here.
 
-path ='myApp\chromedriver.exe'
+path ='myApp\chromedriver'
 options = Options()
 options.headless = True
 
