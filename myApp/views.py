@@ -5,15 +5,15 @@ from selenium.webdriver.chrome.options import Options
 
 # Create your views here.
 
-path ='myApp\chromedriver.exe'
-options = Options()
-options.headless = True
+# path ='myApp\chromedriver.exe'
+# options = Options()
+# options.headless = True
 
-driver = webdriver.Chrome(path, options=options)
-driver.maximize_window()
+# driver = webdriver.Chrome(path, options=options)
+# driver.maximize_window()
 
 def home(request):
     
-    driver.get('https://www.google.com')
-    title = driver.title
+    # driver.get('https://www.google.com')
+    title = 'ankur'
     return render(request, 'index.html',{'title':title})
